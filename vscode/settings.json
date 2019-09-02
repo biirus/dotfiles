@@ -1,0 +1,106 @@
+{
+  // workbench
+  "workbench.activityBar.visible": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.showIcons": false,
+  "workbench.editor.showTabs": false,
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.list.automaticKeyboardNavigation": false,
+  "workbench.list.keyboardNavigation": "simple",
+  "workbench.panel.defaultLocation": "right",
+  "workbench.settings.editor": "json",
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": false,
+  "workbench.tips.enabled": false,
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "none",
+  // editor
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorStyle": "line",
+  "editor.fontFamily": "SF Mono, Consolas",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "500",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": false,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 26,
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.multiCursorModifier": "alt",
+  "editor.renderIndentGuides": false,
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "editor.wordBasedSuggestions": false,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.snippetSuggestions": "top",
+  // terminal
+  "terminal.integrated.fontFamily": "Fira Code",
+  // zen mode
+  "zenMode.fullScreen": false,
+  "zenMode.centerLayout": false,
+  // window
+  "window.titleBarStyle": "native",
+  "window.zoomLevel": 0,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  // explorer
+  "explorer.openEditors.visible": 0,
+  "explorer.confirmDragAndDrop": false,
+  // terminal
+  "terminal.integrated.cursorStyle": "line",
+  // files
+  "files.autoSave": "onFocusChange",
+  "files.associations": {
+    ".babelrc": "json5",
+    "*.js": "javascriptreact"
+  },
+  // git
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  // emmet
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "jsx-attr": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "jsx": {
+      "self_closing_tag": true
+    }
+  },
+  // search
+  "search.exclude": {
+    ".vscode/": true,
+    "**/.next/": true
+  },
+  // language specific
+  "html.format.indentHandlebars": true,
+  "javascript.implicitProjectConfig.checkJs": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.validate.enable": false,
+  // vs intellicode
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // stuff
+  "breadcrumbs.enabled": false,
+  "todohighlight.isEnable": true,
+  "prettier.eslintIntegration": true,
+  "prettier.parser": "flow",
+  "extensions.ignoreRecommendations": true,
+  "telemetry.enableCrashReporter": true,
+  "telemetry.enableTelemetry": true,
+  "workbench.colorTheme": "Min Light",
+  "workbench.iconTheme": "moxer-icons",
+  "terminal.integrated.lineHeight": 1.4,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "editor.suggestSelection": "first",
+  "[elm]": {
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
