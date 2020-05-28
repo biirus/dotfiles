@@ -1,106 +1,131 @@
 {
-  // workbench
-  "workbench.activityBar.visible": false,
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.editor.showIcons": false,
-  "workbench.editor.showTabs": false,
-  "workbench.editor.tabCloseButton": "off",
-  "workbench.list.automaticKeyboardNavigation": false,
-  "workbench.list.keyboardNavigation": "simple",
-  "workbench.panel.defaultLocation": "right",
-  "workbench.settings.editor": "json",
-  "workbench.sideBar.location": "left",
-  "workbench.startupEditor": "none",
-  "workbench.statusBar.visible": false,
-  "workbench.tips.enabled": false,
-  "workbench.tree.indent": 16,
-  "workbench.tree.renderIndentGuides": "none",
-  // editor
-  "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.cursorStyle": "line",
-  "editor.fontFamily": "SF Mono, Consolas",
-  "editor.fontLigatures": true,
-  "editor.fontWeight": "500",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.insertSpaces": false,
-  "editor.fontSize": 13,
-  "editor.lineHeight": 26,
-  "editor.minimap.enabled": false,
-  "editor.minimap.renderCharacters": false,
-  "editor.multiCursorModifier": "alt",
-  "editor.renderIndentGuides": false,
-  "editor.tabSize": 2,
-  "editor.tabCompletion": "on",
-  "editor.wordBasedSuggestions": false,
-  "editor.wordWrap": "wordWrapColumn",
-  "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "editor.snippetSuggestions": "top",
-  // terminal
-  "terminal.integrated.fontFamily": "Fira Code",
-  // zen mode
-  "zenMode.fullScreen": false,
-  "zenMode.centerLayout": false,
-  // window
-  "window.titleBarStyle": "native",
-  "window.zoomLevel": 0,
-  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  // explorer
-  "explorer.openEditors.visible": 0,
-  "explorer.confirmDragAndDrop": false,
-  // terminal
-  "terminal.integrated.cursorStyle": "line",
-  // files
-  "files.autoSave": "onFocusChange",
-  "files.associations": {
-    ".babelrc": "json5",
-    "*.js": "javascriptreact"
-  },
-  // git
-  "git.confirmSync": false,
-  "git.autofetch": true,
-  // emmet
-  "emmet.triggerExpansionOnTab": true,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "jsx-attr": "javascriptreact"
-  },
-  "emmet.syntaxProfiles": {
-    "jsx": {
-      "self_closing_tag": true
-    }
-  },
-  // search
-  "search.exclude": {
-    ".vscode/": true,
-    "**/.next/": true
-  },
-  // language specific
-  "html.format.indentHandlebars": true,
-  "javascript.implicitProjectConfig.checkJs": true,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "javascript.validate.enable": false,
-  // vs intellicode
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  // stuff
-  "breadcrumbs.enabled": false,
-  "todohighlight.isEnable": true,
-  "prettier.eslintIntegration": true,
-  "prettier.parser": "flow",
-  "extensions.ignoreRecommendations": true,
-  "telemetry.enableCrashReporter": true,
-  "telemetry.enableTelemetry": true,
-  "workbench.colorTheme": "Min Light",
-  "workbench.iconTheme": "moxer-icons",
-  "terminal.integrated.lineHeight": 1.4,
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "editor.suggestSelection": "first",
-  "[elm]": {
-    "editor.formatOnSave": true
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+    "workbench.activityBar.visible": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.showIcons": false,
+    "workbench.editor.showTabs": false,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.list.automaticKeyboardNavigation": false,
+    "workbench.list.keyboardNavigation": "simple",
+    "workbench.panel.defaultLocation": "right",
+    "workbench.settings.editor": "json",
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": true,
+    "workbench.tips.enabled": false,
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "none",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": false,
+    "editor.cursorStyle": "line",
+    "editor.fontFamily": "IBM Plex Mono, Input Mono, Hasklig, Cascadia Code, SF Mono, Fira Code, iA Writer Duo S",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "500",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 28,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.multiCursorModifier": "alt",
+    "editor.renderIndentGuides": false,
+    "editor.tabCompletion": "on",
+    "editor.wordBasedSuggestions": false,
+    "editor.wordWrap": "off",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "terminal.integrated.fontFamily": "Hasklig",
+    "terminal.integrated.fontSize": 14,
+    "zenMode.fullScreen": false,
+    "zenMode.centerLayout": true,
+    "zenMode.hideLineNumbers": false,
+    "window.titleBarStyle": "native",
+    "window.zoomLevel": 0,
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    "explorer.openEditors.visible": 0,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.cursorStyle": "line",
+    "files.autoSave": "onFocusChange",
+    "files.associations": {
+        ".babelrc": "json5",
+        "*.js": "javascriptreact",
+        "*.tpl": "html"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true,
+        "**/.stencil": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+        // "**/node_modules": true,
+        // "**/build": true,
+        // "**/dist": true,
+    },
+    "files.watcherExclude": {
+        "**/build": true,
+        "**/dist": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true
+    },
+    "search.exclude": {
+        ".vscode/": true,
+        "**/.next/": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/build": true,
+        "**/dist": true
+    },
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "jsx-attr": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+        "jsx": {
+            "self_closing_tag": true
+        }
+    },
+    "html.format.indentHandlebars": true,
+    "javascript.implicitProjectConfig.checkJs": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "javascript.validate.enable": false,
+    "breadcrumbs.enabled": true,
+    "extensions.ignoreRecommendations": true,
+    "telemetry.enableCrashReporter": true,
+    "telemetry.enableTelemetry": true,
+    "workbench.colorTheme": "Min Dark",
+    "workbench.iconTheme": "ayu",
+    "terminal.integrated.lineHeight": 1.4,
+    "editor.suggestSelection": "first",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.renderWhitespace": "none",
+    "dimmer.opacity": 25,
+    "dimmer.delay": 100,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "polacode.shadow": "rgba(0, 0, 0, 0.35) 0px 12px 36px",
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "elmLS.elmFormatPath": "~/.npm-global/bin/elm-format",
+    "sync.gist": "e2103eaef8ec3eb56aeaf08035d7a80d",
+    "editor.cursorSurroundingLines": 3,
+    "sync.autoUpload": false,
+    "sync.autoDownload": false,
+    "aceJump.finder.onlyInitialLetter": false,
+    "aceJump.placeholder.upperCase": true,
+    "aceJump.placeholder.backgroundColor": "blue",
+    "aceJump.placeholder.color": "yellow",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "Min Light",
+    "workbench.preferredDarkColorTheme": "Min Dark",
+    "todo-tree.tree.showScanModeButton": false,
+    "gitlens.mode.active": "zen"
 }
