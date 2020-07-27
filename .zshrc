@@ -139,3 +139,5 @@ SPACESHIP_PROMPT_ORDER=(
 share-port() {
     ssh -R 80:localhost:$1 ssh.localhost.run
 }
+
+gpgconf --kill gpg-agent
