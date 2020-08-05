@@ -32,7 +32,7 @@
   "editor.wordWrap": "off",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.snippetSuggestions": "top",
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "terminal.integrated.fontFamily": "Fira Code",
   "terminal.integrated.fontSize": 14,
@@ -113,25 +113,10 @@
   "prettier.singleQuote": true,
   "elmLS.elmFormatPath": "~/.npm-global/bin/elm-format",
   "editor.cursorSurroundingLines": 3,
-  "editor.lineNumbers": "relative",
   "window.autoDetectColorScheme": true,
   "workbench.preferredLightColorTheme": "Ayu Light",
   "workbench.preferredDarkColorTheme": "Nord",
   "presentationMode.zoomLevel": 2,
   "vetur.experimental.templateInterpolationService": true,
-  "vim.easymotion": true,
-  "vim.incsearch": true,
-  "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": true,
-  "vim.hlsearch": true,
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "vim.leader": "<space>",
-  "vim.easymotionMarkerBackgroundColor": "#264552",
-  "vim.easymotionMarkerForegroundColorOneChar": "white",
-  "vim.easymotionMarkerWidthPerChar": 16
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
