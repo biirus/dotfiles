@@ -7,3 +7,4 @@ bash ./apple.sh
 bash ./vscode/settings.sh
 bash ./vscode/extensions.sh
 bash ./git.sh
+bash ./gpg.sh
