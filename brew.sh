@@ -39,5 +39,6 @@ brew install --cask spotify
 brew install --cask deepl
 brew install --cask kap
 brew install --cask gpg-suite
+brew install --cask raycast
 
 brew cleanup
