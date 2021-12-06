@@ -140,4 +140,6 @@ share-port() {
     ssh -R 80:localhost:$1 ssh.localhost.run
 }
 
+export GPG_TTY=$(tty)
+
 gpgconf --kill gpg-agent

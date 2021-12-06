@@ -21,6 +21,8 @@ brew install moreutils
 brew install findutils
 brew install gnu-sed --with-default-names
 brew install gpg2
+brew install gnupg
+brew install pinentry-mac
 
 brew install node
 
